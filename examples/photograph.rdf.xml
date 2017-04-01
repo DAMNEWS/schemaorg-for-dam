@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Photograph xmlns="https://schema.org/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="https://www.flickr.com/photos/archbob/22875195123/">
+  <name>Desert Landscape</name>
+  <description>Desert Landscape at Big Bend National Park.</description>
+  <keywords>nature, landscape, outdoors, big, texas, desert, bend, dusk, scenic</keywords>
+  <dateCreated>2014-01-20</dateCreated>
+  <contentLocation>
+    <Place rdf:about="http://sws.geonames.org/5516970/">
+      <name>Big Bend National Park</name>
+    </Place>
+  </contentLocation>
+  <creator>
+    <Person rdf:about="https://www.flickr.com/people/archbob/">
+      <name>Yinan Chen</name>
+    </Person>
+  </creator>
+  <copyrightHolder>
+    <Person rdf:about="https://www.flickr.com/people/archbob/">
+      <name>Yinan Chen</name>
+    </Person>
+  </copyrightHolder>
+  <copyrightYear>2014</copyrightYear>
+  <license>https://creativecommons.org/licenses/by/2.0/</license>
+  <provider>
+    <Organization rdf:about="https://www.flickr.com/">
+      <name>Flickr</name>
+    </Organization>
+  </provider>
+  <associatedMedia>
+    <ImageObject rdf:about="https://www.flickr.com/photos/archbob/22875195123/#original_file">
+      <contentUrl>http://c1.staticflickr.com/1/668/22875195123_4fced120f0_k.jpg</contentUrl>
+      <width>2048</width>
+      <height>1387</height>
+      <contentSize>911577</contentSize>
+      <fileFormat>image/jpeg</fileFormat>
+      <thumbnail>
+        <ImageObject rdf:about="https://www.flickr.com/photos/archbob/22875195123/#thumbnail_file">
+          <contentUrl>http://c1.staticflickr.com/1/668/22875195123_1d0a409a41_n.jpg</contentUrl>
+          <width>320</width>
+          <height>216</height>
+          <contentSize>36171</contentSize>
+          <fileFormat>image/jpeg</fileFormat>
+        </ImageObject>
+      </thumbnail>
+    </ImageObject>
+  </associatedMedia>
+</Photograph>

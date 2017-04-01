@@ -1,0 +1,49 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Photograph",
+  "@id": "https://www.flickr.com/photos/archbob/22875195123/",
+  "name": "Desert Landscape",
+  "description": "Desert Landscape at Big Bend National Park.",
+  "keywords": "nature, landscape, outdoors, big, texas, desert, bend, dusk, scenic",
+  "dateCreated": "2014-01-20",
+  "contentLocation": {
+    "@type": "Place",
+    "@id": "http://sws.geonames.org/5516970/",
+    "name": "Big Bend National Park"
+  },
+  "creator": {
+    "@type": "Person",
+    "@id": "https://www.flickr.com/people/archbob/",
+    "name": "Yinan Chen"
+  },
+  "copyrightHolder": {
+    "@type": "Person",
+    "@id": "https://www.flickr.com/people/archbob/",
+    "name": "Yinan Chen"
+  },
+  "copyrightYear": 2014,
+  "license": "https://creativecommons.org/licenses/by/2.0/",
+  "provider": {
+    "@type": "Organization",
+    "@id": "https://www.flickr.com/",
+    "name": "Flickr"
+  },
+  "associatedMedia": {
+    "@type": "ImageObject",
+    "@id": "https://www.flickr.com/photos/archbob/22875195123/#original_file",
+    "contentUrl": "http://c1.staticflickr.com/1/668/22875195123_4fced120f0_k.jpg",
+    "width": 2048,
+    "height": 1387,
+    "contentSize": 911577,
+    "fileFormat": "image/jpeg",
+    "thumbnail": {
+      "@type": "ImageObject",
+      "@id": "https://www.flickr.com/photos/archbob/22875195123/#thumbnail_file",
+      "contentUrl": "http://c1.staticflickr.com/1/668/22875195123_1d0a409a41_n.jpg",
+      "width": 320,
+      "height": 216,
+      "contentSize": 36171,
+      "fileFormat": "image/jpeg"
+    }
+  }
+}
