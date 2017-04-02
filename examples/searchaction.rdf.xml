@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SearchAction xmlns="http://schema.org/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">
+  <actionStatus>CompletedActionStatus</actionStatus>
+  <description>'john doe' in 'Images'</description>
+  <potentialAction>
+    <SearchAction>
+      <name>Did you mean 'jane doe'?</name>
+      <target>http://example.com/?q=jane+doe</target>
+    </SearchAction>
+  </potentialAction>
+  <potentialAction>
+    <SearchAction>
+      <name>See also: 'dole'</name>
+      <target>http://example.com/?q=dole</target>
+    </SearchAction>
+  </potentialAction>
+  <potentialAction>
+    <SearchAction>
+      <name>next</name>
+      <target>http://example.com/?q=john+doe&amp;p=2</target>
+    </SearchAction>
+  </potentialAction>
+  <query>john doe</query>
+  <result>
+    <ItemList>
+      <opensearch:itemsPerPage>2</opensearch:itemsPerPage>
+      <opensearch:startIndex>1</opensearch:startIndex>
+      <itemListElement>
+        <ListItem>
+          <item>
+            <Photograph>
+              <name>Desert Landscape</name>
+            </Photograph>
+          </item>
+          <position>1</position>
+        </ListItem>
+      </itemListElement>
+      <itemListElement>
+        <ListItem>
+          <item>
+            <Photograph>
+              <name>Photo of John Doe</name>
+            </Photograph>
+          </item>
+          <position>2</position>
+        </ListItem>
+      </itemListElement>
+      <numberOfItems>35</numberOfItems>
+    </ItemList>
+  </result>
+</SearchAction>
